@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node-thermal-printer": "^4.4.1",
+    "socket.io-client": "^4.7.2"
+  }
+}

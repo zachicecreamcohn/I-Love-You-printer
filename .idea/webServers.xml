@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ec15767f-548f-4ffd-b853-e1f677b24b7f" name="I-love-you-printer">
+        <fileTransfer accessType="SFTP" host="192.168.1.123" port="22" sshConfigId="624f2464-7a74-44e7-af9e-8bf9b5ee9ef7" sshConfig="zacharycohn@192.168.1.123:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1327eef5-66cc-4093-a9d3-e71dfd2b52fd" name="I-love-you-ec2">
+        <fileTransfer accessType="SFTP" host="ec2-18-224-181-157.us-east-2.compute.amazonaws.com" port="22" sshConfigId="997958d5-1485-4f87-86df-ad6edd680cf3" sshConfig="zcohn@ec2-18-224-181-157.us-east-2.compute.amazonaws.com:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

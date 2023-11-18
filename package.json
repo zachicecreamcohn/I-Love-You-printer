@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/agenda": "^4.1.0",
+    "@types/mongoose": "^5.11.97"
+  },
+  "dependencies": {
+    "agenda": "^5.0.0"
+  }
+}
