@@ -3,9 +3,9 @@ A raspberry pi-powered christmas gift for my girlfriend. It prints love notes to
 
 ## Features
 - [x] Fetches love notes from server and prints them to thermal receipt printer at scheduled intervals
-- [ ] A web app for adding and editing love notes
-- [ ] Web app also allows for imediate printing
-- [ ] Status updates are displayed on a mini lcd screen.
+- [x] A web app for adding and editing love notes
+- [x] Web app also allows for imediate printing
+- [x] Status updates are displayed on a mini lcd screen.
 
 ## Technologies
 - socket.io
